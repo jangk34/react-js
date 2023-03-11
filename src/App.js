@@ -11,9 +11,7 @@ function App() {
       {/* Route를 찾는 역할인 Routes */}
       <Routes>
         {/* Home */}
-        <Route basename={process.env.PUBLIC_URL + "/"}>
-          <Home />
-        </Route>
+        <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
         {/* Movie */}
         <Route path="/movie/:id" element={<Detail />} />
         <Route path="/hello" element={<h1>"HELLO !!!"</h1>} />
