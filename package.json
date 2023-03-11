@@ -1,5 +1,8 @@
 {
+<<<<<<< HEAD
   "homepage": "https://jangk34.github.io/react-js",
+=======
+>>>>>>> ca6dcf2673ddd894c05bb2478ff7bc6a02659a24
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
@@ -38,5 +41,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   }
+=======
+  },
+  "homepage": "https://jangk34.github.io/react-js.git"
+>>>>>>> ca6dcf2673ddd894c05bb2478ff7bc6a02659a24
 }
