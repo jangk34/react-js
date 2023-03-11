@@ -12,7 +12,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/movie/:id" element={<Detail />} />
         <Route path="/hello" element={<h1>"HELLO !!!"</h1>} />
-        <Route path={`${process.env.PUBLIC_URL}/`} element={Home} />
+        <Route basename={`${process.env.PUBLIC_URL}/`} element={Home} />
       </Routes>
     </Router>
   );
